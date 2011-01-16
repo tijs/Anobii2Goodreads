@@ -1,6 +1,6 @@
 # Customise these variables to define input and output
-anobii_file = "C:\\export_from_anobii.csv"
-goodreads_file = "C:\\import_to_goodreads.csv" 
+anobii_file = "export.csv"
+goodreads_file = "import_to_goodreads.csv" 
 
 ####### do not change anything below this line
 
@@ -88,9 +88,9 @@ for l in reader:
 	publisher = l[6]
 	# expensive date conversion, but might come handy in future
 	pubdate = ""
-	pd_tmp = l[7].replace("'","").split("-")
-	if pd_tmp[0]:
-		pubdate = date(int(pd_tmp[0]),int(pd_tmp[1]),int(pd_tmp[2])).year 
+	#pd_tmp = l[7].replace("'","").split("-")
+	#if pd_tmp[0]:
+	#	pubdate = date(int(pd_tmp[0]),int(pd_tmp[1]),int(pd_tmp[2])).year 
 	privnote = l[8]
 	comment = l[10]
 	status = l[11]
