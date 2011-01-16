@@ -1,0 +1,8 @@
+This script converts a standard CSV export from the Anobii website to a format you should be able to import into Goodreads.
+
+I have not written this script myself but just adapted it a bit so it works again. I've put it on Github since i think it might prove useful to more people than just me. 
+
+You'll find the original by Giacomo Lacava here:
+
+http://blog.pythonaro.com/2008/08/export-your-books-from-anobii-to_14.html
+
